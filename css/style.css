@@ -1,0 +1,155 @@
+/* home page*/
+
+html, body {
+  height: 100%;
+}
+
+.nav {
+  background-color: transparent;
+}
+
+.nav-item a {
+  color:  #FFFFFF;
+}
+
+.logo{
+  padding-left: 1em;
+  padding-top: .3em;
+}
+
+.logo-container{
+}
+
+.navigation {
+  padding-right: 10em;
+}
+
+.container {
+  padding-top: 1em;
+  background: #ffa949 url('../img/rabbit.jpg') no-repeat center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.label  {
+padding-top: 16em;
+padding-left: 43em;
+}
+
+.titles {
+padding-top: 16em;
+padding-left: 43em; 
+}
+
+.title {
+  color: #FFFFFF; 
+  padding-left: 1.5em; 
+}
+.subtitle {
+  color:  #FFFFFF;
+}
+
+.home-input:focus {
+border-color: #FFFFFF; 
+}
+
+.input {
+  border-color: #FFFFFF; 
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  width: 20em; 
+  padding-top: 2.5em;
+}
+
+.home-input::placeholder {
+  color: #FFFFFF;
+}
+
+.home-input {
+  color: #FFFFFF; 
+  font-size: 1.2em;
+}
+
+.home {
+border-color: #FFFFFF; 
+background-color: transparent;
+color: #FFFFFF;
+
+}
+.history-input:focus {
+border-color: #1F2E4B; 
+}
+.history-input-imput::placeholder {
+  color:#A9A9A9;
+}
+
+.history-input{
+  border-color: #1F2E4B; 
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  padding-top: 2.5em;
+  width: 20em;
+  box-shadow: none;
+  color: #000000;
+  font-size: 1.2em;
+}
+
+
+/* About us */
+
+.ncontainer  {
+  padding-top: 1em;
+  background: #ffa949 url('../img/fixblur.png') no-repeat center; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.content p{
+  color:  #FFFFFF;
+}
+
+.content {
+    padding-top: 4em;
+    padding-left: 16em; 
+    text-align: justify; 
+}
+
+.circular {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+.profile-image {
+  background-image: url('../img/marianne.jpg');
+  background-size: cover;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center; 
+  margin: auto;
+}
+
+.button.subscribe-history {
+  border-color: black;
+  background-color: transparent;
+}
+
+
+
+/* contenido final de la pagina*/
+
+
+.footer {
+
+  padding-left: 16.5em;
+}
+
+
