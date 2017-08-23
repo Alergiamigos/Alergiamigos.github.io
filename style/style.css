@@ -1,0 +1,148 @@
+@import url("bulma-0.5.1/css/bulma.css");
+
+.hero-img{
+	background-image: url("../img/iStock-507458360.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.left1{
+	margin-left: 10px;
+}
+
+.p1, p{
+	margin-bottom: 0rem !important;
+}
+
+.columns1{
+	margin-bottom: 6rem !important;
+}
+
+.columns1 .column{
+	padding-top: 0rem !important;
+	padding-bottom: 0rem !important;
+}
+
+.columns1, .column, .box{
+	background: inherit;
+	box-shadow: none;
+}
+
+.button.is-large{
+	border-color: #9e9e9e;
+	font-size: 2.5rem;
+	border-width: 1.5px;
+}
+
+.input{
+	border-color: #9e9e9e;
+	border-left: inherit;
+	border-right: inherit;
+	border-top: inherit;
+  border-width: 1.5px;
+}
+
+.input::placeholder{
+	padding-left: 50px;
+}
+
+.input.is-large{
+	font-size: 2.5rem;
+}
+
+.divide{
+	margin-right: 3% !important;
+}
+
+.footer{
+	background-color: #494a74;
+}
+
+.line-yellow{
+	border: solid;
+	border-color: gold;
+  border-width: thick;
+  margin: -2% 44% 0%;
+}
+
+.imgSomos{
+	margin: 0% !important;
+}
+
+.imgmc{
+  background-image: url(../img/mc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  width: 250px !important;
+  height: 250px !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+
+.marginSomos{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.borderCS{
+	border-radius: 30px 30px;
+}
+
+.icon-Fb{
+	background-image: url(../img/icons/spritesheet.png);
+  background-position: -5px -5px;
+  background-repeat: no-repeat;
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+
+.icon-Ig{
+	background-image: url(../img/icons/spritesheet.png);
+  background-position: -63px -5px;
+  background-repeat: no-repeat;
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+
+.icon-Tw{
+	background-image: url(../img/icons/spritesheet.png);
+  background-position: -121px -5px;
+  background-repeat: no-repeat;
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+.mc{
+	margin-top: 5%;
+}
+
+.tf{
+	font-weight: lighter;
+}
+
+.aa-down-arrow {
+	position: absolute;
+	left: 48%;
+  bottom: 2rem;
+}
+
+.aa-down-arrow .fa{
+	transition: all 0.2s ease-in;
+  font-size: 4rem !important;
+	color: rgba(236, 162, 131, 0.73);
+}
+
+.aa-down-arrow:hover .fa {
+	font-size: 4.7rem !important;
+	color: #eca283;
+}
+
+.hero-head .level.aa-main-nav{
+	padding-top: 1rem;
+}
